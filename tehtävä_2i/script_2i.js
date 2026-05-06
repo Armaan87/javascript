@@ -11,5 +11,9 @@ function even(arr) {
 const numbers = [2, 7, 4, 9, 10];
 
 const evenNumbers = even(numbers);
-console.log("Original array:", numbers);
-console.log("Even numbers array:", evenNumbers);
+
+document.write("<h3>Original array:</h3>");
+document.write("<p>" + numbers.join(", ") + "</p>");
+
+document.write("<h3>Even numbers array:</h3>");
+document.write("<p>" + evenNumbers.join(", ") + "</p>");
